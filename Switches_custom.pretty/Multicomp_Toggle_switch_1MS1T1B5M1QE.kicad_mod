@@ -1,4 +1,4 @@
-(module Multicomp_Toggle_switch_1MS1T1B5M1QE (layer F.Cu) (tedit 5BE06DC7)
+(module Multicomp_Toggle_switch_1MS1T1B5M1QE (layer F.Cu) (tedit 5BE323D8)
   (fp_text reference REF** (at 0.1 9.5) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
