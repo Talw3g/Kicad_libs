@@ -39,19 +39,27 @@ except IOError:
 # Create a new csv writer object to use as the output formatter
 out = csv.writer(f, lineterminator='\n', delimiter=',', quotechar='\"', quoting=csv.QUOTE_ALL)
 
+vendors = ["RS","Farnell","Mouser"]
+exclude = ["Fiducial", "MountingHole"]
+grouped = net.groupComponents()
+
+# Getting component count (without excluded)
+comp_count = 0
+for group in grouped:
+    if group[0].getValue() not in exclude:
+        comp_count += len(group)
+
+
 # Output a set of rows for a header providing general information
 today = dt.now()
 date = "{:d}/{:d}/{:d}".format(today.day, today.month, today.year)
 out.writerow(['Source:', net.getSource()])
 out.writerow(['Date:', date])
-out.writerow(['Component Count:', len(net.components)])
+out.writerow(['Component Count:', comp_count])
 out.writerow(['Ref', 'Qnty', 'Value', 'Footprint', 'Ref', 'Vendor Ref'])
 
-vendors = ["RS","Farnell","Mouser"]
-exclude = ["Fiducial", "MountingHole"]
 # Get all of the components in groups of matching parts + values
 # (see ky_generic_netlist_reader.py)
-grouped = net.groupComponents()
 
 # Output all of the component information
 for group in grouped:
