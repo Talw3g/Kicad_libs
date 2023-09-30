@@ -17,4 +17,9 @@
     (stroke (width 0.15) (type default)) (fill none) (layer "F.SilkS") (tstamp dd950b88-f8aa-4e05-9cfb-2b89e05dfb8a))
   (pad "1" smd rect (at -1.7 0) (size 0.8 1.7) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 5d7d46fd-3136-4308-bc39-e757c1773ec1))
   (pad "2" smd rect (at 1.7 0) (size 0.8 1.7) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 876d612e-3695-48ae-a716-2c6855f90d14))
+  (model "${CUSTOM_LIB}/Switches_custom.pretty/E-Switch_TL1017AAA.step"
+    (offset (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
 )
