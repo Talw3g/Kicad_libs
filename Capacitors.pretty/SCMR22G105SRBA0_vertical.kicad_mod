@@ -1,0 +1,246 @@
+(footprint "SCMR22G105SRBA0_vertical"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Rectangle capa 1F / 8.1V")
+	(property "Reference" "REF**"
+		(at 0.05 -6.45 0)
+		(layer "F.SilkS")
+		(uuid "8978ca3c-d485-4d35-a070-46759db921e6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "SCMR22G105SRBA0_vertical"
+		(at 0.1 7.25 0)
+		(layer "F.Fab")
+		(uuid "1ddf762d-5549-4daf-b0d9-6803cfc63df9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "eaf8dc9e-9908-4dbc-84df-d7d64d272f31")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4060340b-8ea9-4977-a0cb-97d9d8b51dd0")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "70e82d69-af3e-48e1-a980-f62ee24bcb5d")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -13.9 -5.4)
+		(end 13.9 -5.4)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f8cb85ee-e6aa-449c-90ca-1c73cac2c559")
+	)
+	(fp_line
+		(start -13.9 -5.37)
+		(end -13.9 5.37)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "13db9b93-6cd6-48eb-a726-906024b9b7ad")
+	)
+	(fp_line
+		(start -13.9 5.4)
+		(end 13.9 5.4)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "3c18caa7-5be4-4969-8868-0b0588087cfe")
+	)
+	(fp_line
+		(start 13.9 -5.37)
+		(end 13.9 5.37)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "55e7a897-bea3-41b2-8474-b9b19b242dc6")
+	)
+	(fp_line
+		(start -14 -5.5)
+		(end -14 5.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "fc264548-e2e3-46cf-9000-136050bc2977")
+	)
+	(fp_line
+		(start -14 5.5)
+		(end 14 5.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "f59f8920-daa2-4b46-ab82-a82b8e0fd417")
+	)
+	(fp_line
+		(start 14 -5.5)
+		(end -14 -5.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "366f8443-ad7d-4e5d-b38e-11137bc5f8a6")
+	)
+	(fp_line
+		(start 14 5.5)
+		(end 14 -5.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "2cc17a8d-3119-4722-aa76-ab250e8fe695")
+	)
+	(fp_line
+		(start -13.8 -5.25)
+		(end -13.8 5.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "dbf5bc60-6dd7-49ec-a694-a0c729cb6747")
+	)
+	(fp_line
+		(start -13.8 5.25)
+		(end 13.8 5.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "5988b671-2a32-4fc1-a5e0-b0917534a19e")
+	)
+	(fp_line
+		(start 13.8 -5.25)
+		(end -13.8 -5.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "0389ee8e-f28b-49a3-9404-5278e9a78de7")
+	)
+	(fp_line
+		(start 13.8 5.25)
+		(end 13.8 -5.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e1a757da-fd97-4773-b542-8040bf901a33")
+	)
+	(fp_text user "-"
+		(at 5.75 -3.5 0)
+		(layer "F.SilkS")
+		(uuid "0b85b507-a299-47b5-9d4e-628acb7ae27f")
+		(effects
+			(font
+				(size 3 3)
+				(thickness 0.5)
+			)
+		)
+	)
+	(fp_text user "+"
+		(at -5.75 -3.5 0)
+		(layer "F.SilkS")
+		(uuid "6b57fd6d-7cf4-4963-96b9-7f2ac26b8a9f")
+		(effects
+			(font
+				(size 3 3)
+				(thickness 0.5)
+			)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "61741fa2-e53d-469d-b8f7-9ada2794aa97")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at -6.75 0)
+		(size 2.4 2.4)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "13dbc275-6766-45df-9794-72047ea46581")
+	)
+	(pad "2" thru_hole circle
+		(at 6.75 0)
+		(size 2.4 2.4)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "fae5b374-89e7-471d-914b-564c1f0a7e85")
+	)
+	(model "${CUSTOM_LIB}/Capacitors.pretty/SCMR22G105SRBA0.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

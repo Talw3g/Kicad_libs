@@ -1,35 +1,241 @@
-(module TE_SM5 (layer F.Cu) (tedit 5BD6C038)
-  (descr "Resistor SMD TE SM5 5W")
-  (tags "resistor handsolder")
-  (attr smd)
-  (fp_text reference REF** (at 0 0.05) (layer F.SilkS)
-    (effects (font (size 1 1) (thickness 0.15)))
-  )
-  (fp_text value TE_SM5 (at 0 2.1) (layer F.Fab)
-    (effects (font (size 1 1) (thickness 0.15)))
-  )
-  (fp_line (start -6.75 3.65) (end -6.75 -3.65) (layer F.Fab) (width 0.1))
-  (fp_line (start -6.75 -3.65) (end 6.75 -3.65) (layer F.Fab) (width 0.1))
-  (fp_line (start 6.75 -3.65) (end 6.75 3.65) (layer F.Fab) (width 0.1))
-  (fp_line (start 6.75 3.65) (end -6.75 3.65) (layer F.Fab) (width 0.1))
-  (fp_line (start -6.9 -3.8) (end 6.9 -3.8) (layer F.SilkS) (width 0.12))
-  (fp_line (start -6.9 3.8) (end 6.9 3.8) (layer F.SilkS) (width 0.12))
-  (fp_line (start -7 3.9) (end -7 -3.9) (layer F.CrtYd) (width 0.05))
-  (fp_line (start -7 -3.9) (end 7 -3.9) (layer F.CrtYd) (width 0.05))
-  (fp_line (start 7 -3.9) (end 7 3.9) (layer F.CrtYd) (width 0.05))
-  (fp_line (start 7 3.9) (end -7 3.9) (layer F.CrtYd) (width 0.05))
-  (fp_text user %R (at 0 -1.55) (layer F.Fab)
-    (effects (font (size 1 1) (thickness 0.15)))
-  )
-  (fp_line (start -6.9 -3.8) (end -6.9 -1.9) (layer F.SilkS) (width 0.12))
-  (fp_line (start -6.9 1.9) (end -6.9 3.8) (layer F.SilkS) (width 0.12))
-  (fp_line (start 6.9 1.9) (end 6.9 3.8) (layer F.SilkS) (width 0.12))
-  (fp_line (start 6.9 -3.8) (end 6.9 -1.9) (layer F.SilkS) (width 0.12))
-  (pad 1 smd rect (at -5.5 0) (size 4.5 3.4) (layers F.Cu F.Paste F.Mask))
-  (pad 2 smd rect (at 5.5 0) (size 4.5 3.4) (layers F.Cu F.Paste F.Mask))
-  (model ${KICAD_USER_LIB}/Resistors_custom.pretty/TE_SM5.STEP
-    (at (xyz 0 0 0))
-    (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 0))
-  )
+(footprint "TE_SM5"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Resistor SMD TE SM5 5W")
+	(tags "resistor handsolder")
+	(property "Reference" "REF**"
+		(at 0 0.05 0)
+		(layer "F.SilkS")
+		(uuid "2ae663ae-1c30-4d7d-9ee0-531b1aa214fe")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "TE_SM5"
+		(at 0 2.1 0)
+		(layer "F.Fab")
+		(uuid "b950ff38-bba4-4de1-8488-39ab43eccbd9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4ab381df-7643-4a7d-b122-08fae6868b78")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "629ac57b-5d26-4cbb-876a-4030b86f3193")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a7b9f4f8-1990-422c-844a-6295ae4e0277")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -6.9 -3.8)
+		(end -6.9 -1.9)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "3b6a044d-2359-4dba-bc6b-3c99393f548c")
+	)
+	(fp_line
+		(start -6.9 -3.8)
+		(end 6.9 -3.8)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "3c16e996-51a2-4dec-9d1f-fc871b6298e3")
+	)
+	(fp_line
+		(start -6.9 1.9)
+		(end -6.9 3.8)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d360feca-394c-49c5-8af6-128fc0980917")
+	)
+	(fp_line
+		(start -6.9 3.8)
+		(end 6.9 3.8)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "3d27a171-08e6-4a8a-aebc-64451fc1ac1c")
+	)
+	(fp_line
+		(start 6.9 -3.8)
+		(end 6.9 -1.9)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8ed19195-4b31-479f-a1af-f7752f950359")
+	)
+	(fp_line
+		(start 6.9 1.9)
+		(end 6.9 3.8)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f476e02b-9efa-43b5-8811-44084ab5d18e")
+	)
+	(fp_line
+		(start -7 -3.9)
+		(end 7 -3.9)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "c988a073-bd50-47c8-9d76-0d869c57a55d")
+	)
+	(fp_line
+		(start -7 3.9)
+		(end -7 -3.9)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "81f2732b-4bd3-4162-9b58-94e815443868")
+	)
+	(fp_line
+		(start 7 -3.9)
+		(end 7 3.9)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "8d4aadb2-d3bf-4950-a89d-dc1346a978ad")
+	)
+	(fp_line
+		(start 7 3.9)
+		(end -7 3.9)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "3ae257a0-f423-4c67-ae1c-a2c7a09a12d7")
+	)
+	(fp_line
+		(start -6.75 -3.65)
+		(end 6.75 -3.65)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "59c20a7a-26d0-42e8-844c-049066d80d47")
+	)
+	(fp_line
+		(start -6.75 3.65)
+		(end -6.75 -3.65)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f749bba2-f186-47d8-ab54-c504e5738037")
+	)
+	(fp_line
+		(start 6.75 -3.65)
+		(end 6.75 3.65)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "fd2c475e-75e7-4b7c-aad2-568fcfc3b3c5")
+	)
+	(fp_line
+		(start 6.75 3.65)
+		(end -6.75 3.65)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "9b4aae0c-753f-413f-9cf0-645ae7b04842")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 -1.55 0)
+		(layer "F.Fab")
+		(uuid "c78e2e96-b2fb-4ba3-beaa-39ee19313bc0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -5.5 0)
+		(size 4.5 3.4)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "7cce7f3b-bff7-47e4-96ce-e84c09ac1f4e")
+	)
+	(pad "2" smd rect
+		(at 5.5 0)
+		(size 4.5 3.4)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "15403740-1e94-425b-8b8e-9a4321ec0a5b")
+	)
+	(model "${CUSTOM_LIB}/Resistors_custom.pretty/TE_SM5.STEP"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
 )
