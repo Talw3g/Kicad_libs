@@ -1,0 +1,129 @@
+(footprint "Pulse_PG1083.253NLT"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Choke, SMD, 7.3x7.3mm 3.5mm height")
+	(tags "Choke SMD")
+	(property "Reference" "REF**"
+		(at 6.65 -11.2 0)
+		(layer "F.SilkS")
+		(uuid "7acea145-08b1-4585-b001-b792bc9a5f64")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "PG1083.253NLT"
+		(at 0.05 3 0)
+		(layer "F.Fab")
+		(uuid "08b79977-f3e8-4cac-aa31-a9eb1f15d539")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "eab8162f-cbe8-40ee-b001-28c6415cc4ad")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7250a6ff-5b17-416a-9ab5-505d51a65b5c")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start -10.85 -10.75)
+		(end 10.85 10.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "21ea28f8-8f7e-442c-bb7c-7e1316ed8357")
+	)
+	(fp_rect
+		(start -11.35 -11.25)
+		(end 11.35 11.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "854f316e-de04-4cd9-9dc8-b6cacfbcf77a")
+	)
+	(fp_rect
+		(start -10.85 -10.75)
+		(end 10.85 10.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "0461b476-5f9d-4838-83db-5d87c624085d")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "8e8d1a9d-4b41-4beb-ada1-31146928871b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "" smd rect
+		(at 0 -9.5)
+		(size 4 5.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "9922c4ee-693f-465e-822f-534dea19ec66")
+	)
+	(pad "1" smd rect
+		(at -7.25 9.25)
+		(size 4 6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "ea280d2e-f538-49d3-a23c-95dfd70b8787")
+	)
+	(pad "2" smd rect
+		(at 7.25 9.25)
+		(size 4 6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "5ce1e1c6-680f-49f4-9549-db130d7847c6")
+	)
+	(embedded_fonts no)
+	(model "${CUSTOM_LIB}/Inductors.pretty/PG1083.253NLT.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
