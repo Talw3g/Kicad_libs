@@ -346,7 +346,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin input line
 				(at -12.7 -6.35 0)
 				(length 2.54)
 				(name "VCP"
@@ -367,8 +367,7 @@
 			(pin power_in line
 				(at -12.7 -11.43 0)
 				(length 2.54)
-				(hide yes)
-				(name "VIN"
+				(name "VIN1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -376,43 +375,6 @@
 					)
 				)
 				(number "2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at -12.7 -11.43 0)
-				(length 2.54)
-				(hide yes)
-				(name "VIN"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "5"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at -12.7 -11.43 0)
-				(length 2.54)
-				(name "VIN"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "9"
 					(effects
 						(font
 							(size 1.27 1.27)
