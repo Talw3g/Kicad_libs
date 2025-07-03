@@ -6,7 +6,7 @@
 	(descr "TSSOP, 20 Pin (https://pdfserv.maximintegrated.com/package_dwgs/21-100132.PDF), generated with kicad-footprint-generator ipc_gullwing_generator.py")
 	(tags "TSSOP SO")
 	(property "Reference" "REF**"
-		(at 0 -4.2 0)
+		(at -2.8 -4.2 0)
 		(layer "F.SilkS")
 		(uuid "55031da8-e62b-436d-8d05-ab57889b8fd5")
 		(effects
@@ -53,7 +53,7 @@
 	)
 	(attr smd)
 	(fp_line
-		(start 0 -3.385)
+		(start -1.7 -3.385)
 		(end -2.2 -3.385)
 		(stroke
 			(width 0.12)
@@ -63,17 +63,7 @@
 		(uuid "0ca03c99-be54-408c-8e14-0976cacc3f0e")
 	)
 	(fp_line
-		(start 0 -3.385)
-		(end 2.2 -3.385)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "c620dc12-9efa-4931-93bf-a590ef9945f1")
-	)
-	(fp_line
-		(start 0 3.385)
+		(start -1.7 3.385)
 		(end -2.2 3.385)
 		(stroke
 			(width 0.12)
@@ -83,7 +73,17 @@
 		(uuid "a3ba10b4-cc8c-4a6e-b8dc-2cb8ea0f5cd6")
 	)
 	(fp_line
-		(start 0 3.385)
+		(start 1.7 -3.385)
+		(end 2.2 -3.385)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c620dc12-9efa-4931-93bf-a590ef9945f1")
+	)
+	(fp_line
+		(start 1.7 3.385)
 		(end 2.2 3.385)
 		(stroke
 			(width 0.12)
@@ -318,6 +318,7 @@
 		(size 1.6 0.4)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
+		(zone_connect 2)
 		(uuid "0509c31c-d0b0-445f-80ec-ae8fcb3f5f36")
 	)
 	(pad "2" smd roundrect
@@ -325,6 +326,7 @@
 		(size 1.6 0.4)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
+		(zone_connect 2)
 		(uuid "3d919c57-b7dc-4da5-ad7c-6eefa55e4a53")
 	)
 	(pad "3" smd roundrect
@@ -332,6 +334,7 @@
 		(size 1.6 0.4)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
+		(zone_connect 2)
 		(uuid "a6da35a8-cc81-402f-a368-1b4f3565a174")
 	)
 	(pad "4" smd roundrect
@@ -339,6 +342,7 @@
 		(size 1.6 0.4)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
+		(zone_connect 2)
 		(uuid "7494cca5-aca5-4f41-8a84-e7f02f79e132")
 	)
 	(pad "5" smd roundrect
@@ -346,6 +350,7 @@
 		(size 1.6 0.4)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
+		(zone_connect 2)
 		(uuid "6d0a614d-b29d-4514-8413-22ec84e7e5a8")
 	)
 	(pad "6" smd roundrect
@@ -353,6 +358,7 @@
 		(size 1.6 0.4)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
+		(zone_connect 2)
 		(uuid "3a05873b-81c2-4a35-ab20-918778dc3cee")
 	)
 	(pad "7" smd roundrect
@@ -360,6 +366,7 @@
 		(size 1.6 0.4)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
+		(zone_connect 2)
 		(uuid "e28115d7-0d2a-4693-a278-def374f08513")
 	)
 	(pad "8" smd roundrect
@@ -367,6 +374,7 @@
 		(size 1.6 0.4)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
+		(zone_connect 2)
 		(uuid "5ec9729b-821c-4363-848f-d3c829b37f3b")
 	)
 	(pad "9" smd roundrect
@@ -374,6 +382,7 @@
 		(size 1.6 0.4)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
+		(zone_connect 2)
 		(uuid "f4daec38-143d-4b9f-8c74-20bd8eac92b7")
 	)
 	(pad "10" smd roundrect
@@ -381,6 +390,7 @@
 		(size 1.6 0.4)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
+		(zone_connect 2)
 		(uuid "48206033-6090-4341-b4fe-4cffce3847d9")
 	)
 	(pad "11" smd roundrect
@@ -388,6 +398,7 @@
 		(size 1.6 0.4)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
+		(zone_connect 2)
 		(uuid "9e63f83f-5802-46fd-86ac-ecf38042d22d")
 	)
 	(pad "12" smd roundrect
@@ -395,6 +406,7 @@
 		(size 1.6 0.4)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
+		(zone_connect 2)
 		(uuid "98f7ca1d-8a77-477e-9507-df23e0dc0861")
 	)
 	(pad "13" smd roundrect
@@ -402,6 +414,7 @@
 		(size 1.6 0.4)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
+		(zone_connect 2)
 		(uuid "cc05024e-e88d-4524-b110-aa39d9b03d80")
 	)
 	(pad "14" smd roundrect
@@ -409,6 +422,7 @@
 		(size 1.6 0.4)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
+		(zone_connect 2)
 		(uuid "3942df5b-aaee-4bdc-9079-dfc1e2a71565")
 	)
 	(pad "15" smd roundrect
@@ -416,6 +430,7 @@
 		(size 1.6 0.4)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
+		(zone_connect 2)
 		(uuid "c23dd11d-0ac1-49f9-a663-581a51657aa4")
 	)
 	(pad "16" smd roundrect
@@ -423,6 +438,7 @@
 		(size 1.6 0.4)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
+		(zone_connect 2)
 		(uuid "21581e12-4bf4-43c0-b46a-20367d609380")
 	)
 	(pad "17" smd roundrect
@@ -430,6 +446,7 @@
 		(size 1.6 0.4)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
+		(zone_connect 2)
 		(uuid "918d0f8a-e9b7-413b-aec9-ed6162197b29")
 	)
 	(pad "18" smd roundrect
@@ -437,6 +454,7 @@
 		(size 1.6 0.4)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
+		(zone_connect 2)
 		(uuid "349d33a1-496e-43d8-9656-9c44164735d9")
 	)
 	(pad "19" smd roundrect
@@ -444,6 +462,7 @@
 		(size 1.6 0.4)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
+		(zone_connect 2)
 		(uuid "a6205595-88b7-4497-b723-d3c9fdec8fc8")
 	)
 	(pad "20" smd roundrect
@@ -451,6 +470,7 @@
 		(size 1.6 0.4)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
+		(zone_connect 2)
 		(uuid "4295e45d-3abc-4faa-a0ac-9cda8f3454ae")
 	)
 	(pad "21" smd rect

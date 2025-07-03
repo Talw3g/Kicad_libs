@@ -6,7 +6,7 @@
 	(descr "Choke, SMD, 7.3x7.3mm 3.5mm height")
 	(tags "Choke SMD")
 	(property "Reference" "REF**"
-		(at 6.65 -11.2 0)
+		(at 0.55 12.05 0)
 		(layer "F.SilkS")
 		(uuid "7acea145-08b1-4585-b001-b792bc9a5f64")
 		(effects
@@ -52,16 +52,75 @@
 		)
 	)
 	(attr smd)
-	(fp_rect
+	(fp_line
 		(start -10.85 -10.75)
+		(end -2.3 -10.75)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "3ddc3398-e92b-4482-860d-79b240b92a78")
+	)
+	(fp_line
+		(start -10.85 10.75)
+		(end -10.85 -10.75)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "696fadba-db88-45bf-83fd-6cbb0e588acc")
+	)
+	(fp_line
+		(start -10.85 10.75)
+		(end -9.45 10.75)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "36efd9d2-403c-4fb3-9b97-ff5c3ad05a2b")
+	)
+	(fp_line
+		(start 5.05 10.75)
+		(end -4.95 10.75)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "4b9c8fdc-10cc-4d03-9204-3abbc9646e4d")
+	)
+	(fp_line
+		(start 10.85 -10.75)
+		(end 2.25 -10.75)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "641cd033-360f-44d1-845b-352fffbcc574")
+	)
+	(fp_line
+		(start 10.85 -10.75)
 		(end 10.85 10.75)
 		(stroke
 			(width 0.1)
-			(type solid)
+			(type default)
 		)
-		(fill no)
 		(layer "F.SilkS")
-		(uuid "21ea28f8-8f7e-442c-bb7c-7e1316ed8357")
+		(uuid "40c0a352-5313-42c5-855e-2148f84c54bd")
+	)
+	(fp_line
+		(start 10.85 10.75)
+		(end 9.45 10.75)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "bf770271-e342-4dc6-a75a-5acb24d4ce45")
 	)
 	(fp_rect
 		(start -11.35 -11.25)
@@ -96,23 +155,26 @@
 			)
 		)
 	)
-	(pad "" smd rect
-		(at 0 -9.5)
-		(size 4 5.5)
-		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "9922c4ee-693f-465e-822f-534dea19ec66")
-	)
 	(pad "1" smd rect
 		(at -7.25 9.25)
 		(size 4 6)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(zone_connect 2)
 		(uuid "ea280d2e-f538-49d3-a23c-95dfd70b8787")
 	)
 	(pad "2" smd rect
 		(at 7.25 9.25)
 		(size 4 6)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(zone_connect 2)
 		(uuid "5ce1e1c6-680f-49f4-9549-db130d7847c6")
+	)
+	(pad "3" smd rect
+		(at 0 -9.5)
+		(size 4 5.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(zone_connect 2)
+		(uuid "9922c4ee-693f-465e-822f-534dea19ec66")
 	)
 	(embedded_fonts no)
 	(model "${CUSTOM_LIB}/Inductors.pretty/PG1083.253NLT.step"
