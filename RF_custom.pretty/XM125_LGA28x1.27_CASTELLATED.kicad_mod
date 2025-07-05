@@ -1,7 +1,7 @@
 (footprint "XM125_LGA28x1.27_CASTELLATED"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at 12.5 -0.4 90)
@@ -23,18 +23,6 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "d2373ae1-81c1-4128-afe0-4fee18c6636f")
-		(effects
-			(font
-				(size 1.27 1.27)
 				(thickness 0.15)
 			)
 		)
@@ -131,31 +119,177 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.SilkS")
 		(uuid "32001924-2b28-4ae9-86a3-6fc8fa260551")
 	)
-	(fp_rect
-		(start -7.755 -6.745)
-		(end 10.745 -3.745)
+	(fp_line
+		(start -7.755 -4.245)
+		(end -7.755 -6.245)
 		(stroke
 			(width 0.1)
 			(type default)
 		)
-		(fill none)
 		(layer "Edge.Cuts")
-		(uuid "997ea6e0-f36c-4af3-9fd8-701de38711eb")
+		(uuid "32ef380b-7b7a-4eea-8b3b-701064680a5d")
 	)
-	(fp_rect
-		(start -7.755 3.755)
-		(end 10.745 6.755)
+	(fp_line
+		(start -7.755 6.255)
+		(end -7.755 4.255)
 		(stroke
 			(width 0.05)
 			(type default)
 		)
-		(fill none)
 		(layer "Edge.Cuts")
-		(uuid "0b4bf2af-b3c4-4e5f-8d86-c909451e2d26")
+		(uuid "b5797328-4be1-4b39-99a2-abe0980c8cbe")
+	)
+	(fp_line
+		(start -7.255 -6.745)
+		(end 10.245 -6.745)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "ac3bbadf-b341-4421-b6c7-56054091c4ab")
+	)
+	(fp_line
+		(start -7.255 3.755)
+		(end 10.245 3.755)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "0e5ec082-f279-43c8-b618-f0518d00eb60")
+	)
+	(fp_line
+		(start 10.245 -3.745)
+		(end -7.255 -3.745)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "6576a8a8-d039-4241-af73-0212b34c4118")
+	)
+	(fp_line
+		(start 10.245 6.755)
+		(end -7.255 6.755)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "5fb71bac-2e6e-4461-a3c5-c36bb8131c99")
+	)
+	(fp_line
+		(start 10.745 -6.245)
+		(end 10.745 -4.245)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "b5920ce5-bd5b-4c55-be04-b6835d8f9c29")
+	)
+	(fp_line
+		(start 10.745 4.255)
+		(end 10.745 6.255)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "384b256e-18da-42f0-8f3d-c5b481b84af4")
+	)
+	(fp_arc
+		(start -7.755 -6.245)
+		(mid -7.608553 -6.598553)
+		(end -7.255 -6.745)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "33001f53-e042-480e-8ae2-99a6cebb64e2")
+	)
+	(fp_arc
+		(start -7.755 4.255)
+		(mid -7.608553 3.901447)
+		(end -7.255 3.755)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "0c4e4d40-d541-4833-a2fc-a2d427612e27")
+	)
+	(fp_arc
+		(start -7.255 -3.745)
+		(mid -7.608553 -3.891447)
+		(end -7.755 -4.245)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "7cf1e833-7c6c-460e-844e-05ad3833c52f")
+	)
+	(fp_arc
+		(start -7.255 6.755)
+		(mid -7.608553 6.608553)
+		(end -7.755 6.255)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "4ef3468a-f8b7-4277-a2f9-a92c8d004b94")
+	)
+	(fp_arc
+		(start 10.245 -6.745)
+		(mid 10.598553 -6.598553)
+		(end 10.745 -6.245)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "8a8be9c7-4147-44d2-9e23-67a17f1ab9f5")
+	)
+	(fp_arc
+		(start 10.245 3.755)
+		(mid 10.598553 3.901447)
+		(end 10.745 4.255)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "e09c715a-54ee-450f-8a8f-49438e3d93a0")
+	)
+	(fp_arc
+		(start 10.745 -4.245)
+		(mid 10.598553 -3.891447)
+		(end 10.245 -3.745)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "972686da-19c3-4722-abe2-302e672fa0e2")
+	)
+	(fp_arc
+		(start 10.745 6.255)
+		(mid 10.598553 6.608553)
+		(end 10.245 6.755)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "7e62487a-1b73-44bc-be0b-bb45ea52b4fd")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 1.6 0.8 0)
@@ -421,6 +555,7 @@
 		(remove_unused_layers no)
 		(uuid "6d2eab82-b997-40cf-8647-ef568cd835a2")
 	)
+	(embedded_fonts no)
 	(model ":CUSTOM_LIB:RF_custom.pretty/XM125.step"
 		(offset
 			(xyz -7.8 -7.5 1)
